@@ -1,3 +1,15 @@
-.heading {
+.newFont {
   font-family: 'Times New Roman', Times, serif;
+}
+
+.background {
+  background-color: darkgray;
+}
+
+.newColor{
+  color: #57afa9;
+}
+
+.backColor{
+  background-color: #57afa9;
 }

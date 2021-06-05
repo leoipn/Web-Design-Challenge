@@ -12,11 +12,11 @@
     <title>Latitude</title>
   </head>
   <body>
-    <div class="container-fluid">
-        <div class="row">
+    <div class="container-fluid background">
+        <div class="row bg-white">
             <div class="col"> 
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand border bg-info text-white p-2 mb-3 font-weight-bold heading" href="#">Latitude</a>
+                    <a class="navbar-brand border backColor text-white p-2 mb-3 font-weight-bold newFont" href="#">Latitude</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
@@ -44,26 +44,21 @@
                 </nav>
             </div>
         </div>
-        <div class="row bg-light">
-            <div class="col-md-6 column-sm-12">
-                <div class="media">
-                    <img src="..." class="align-self-start mr-3" alt="...">
-                    <div class="media-body">
-                      <h5 class="mt-0">Media heading</h5>
-                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    </div>
-                  </div>
+        <div class="row p-2 justify-content-md-center">
+            <div class="col-1"></div>
+            <div class="col bg-white mt-3 mb-3 mr-2">
+                <h1 class="newFont newColor">Summary: Latitude vs. X</h1>
+                <hr>
+                <img src="https://raw.githubusercontent.com/leoipn/python-api-challenge/main/WeatherPy/Images/lat_vs_max_temp.png" class="float-left img-fluid p-3" alt="lat_vs_max_temp" width=250>
+                <p style="font-size: smaller">The purpose of this project was to analyze how wateher changes as you get closerto the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cites.</p>
+                <p style="font-size: smaller">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. 
+                    This site provides the source data and visualizations created as part of the analysis, as well explanations and descriptions of any trends and correlations witnessed.</p>
             </div>
-            <div class="col-md-6 column-sm-12">
-                <div class="media bg-">
-                    <img src="..." class="align-self-start mr-3" alt="...">
-                    <div class="media-body">
-                      <h5 class="mt-0">Media heading</h5>
-                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    </div>
-                  </div>
+            <div class="col bg-white mt-3 mb-3 ml-2">
+                <h1 class="newFont newColor">visualizations</h1>
+                <hr>
             </div>
-
+            <div class="col-1"></div>
         </div>
     </div>
 
