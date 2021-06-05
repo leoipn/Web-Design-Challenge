@@ -3,7 +3,7 @@
 }
 
 .background {
-  background-color: darkgray;
+  background-color: #ededed;
 }
 
 .newColor{
@@ -12,4 +12,10 @@
 
 .backColor{
   background-color: #57afa9;
+}
+
+@media (max-width: 990px) {
+  .navbar{
+    background-color: #57afa9;
+  }
 }
