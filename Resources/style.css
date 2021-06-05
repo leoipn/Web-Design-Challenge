@@ -21,6 +21,15 @@
   color: #57afa9;
 }
 
+a:hover 
+{
+  border: #57afa9;
+}
+
+.highligthed{
+  border:3px solid #57afa9;
+}
+
 @media (max-width: 990px) {
   .navbar{
     background-color: #57afa9;
